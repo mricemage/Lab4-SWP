@@ -26,3 +26,20 @@
    26  git push origin master
    27  $history >mylog.log
    28  history > mylog.log
+   29  git add .
+   30  git commit -m "MyLog"
+   31  git push origin master
+   32  git branch b2
+   33  git add .
+   34  git commit -m "Belt for master"
+   35  git checkout b2
+   36  git add .
+   37  git commit -m "Put X as belt for the cat"
+   38  git checkout master
+   39  git merge b2 -m "merge"
+   40  git add.
+   41  git add .
+   42  git commit -m "Finally chosen the belt X for the cat"
+   43  git branch -d b2
+   44  git push origin master
+   45  history > mylog.log
