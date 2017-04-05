@@ -1,0 +1,28 @@
+    1  git init
+    2  git add.
+    3  git add
+    4  git add .
+    5  git commit -m "First commit"
+    6  git remote add origin https://github.com/mricemage/Lab4-SWP.git
+    7  git remote -v
+    8  git push origin master
+    9  git branch b1
+   10  git checkout master
+   11  git add .
+   12  git commit -m "Cat longer"
+   13  git checkout b1
+   14  git add.
+   15  git commit -m "Cat with ear"
+   16  git add .
+   17  git commit -m "Cat with ear"
+   18  git checkout master
+   19  git merge b1 -m "merge"
+   20  git add.
+   21  git add .
+   22  git commit -m "Merged and remove conflict"
+   23  git branch -d b1
+   24  git push
+   25  git push origin-master
+   26  git push origin master
+   27  $history >mylog.log
+   28  history > mylog.log
